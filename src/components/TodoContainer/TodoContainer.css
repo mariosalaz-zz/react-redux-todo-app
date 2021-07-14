@@ -1,0 +1,34 @@
+.main-container {
+    width: 80vw;
+}
+
+
+.main-container .main-container__input input{
+    padding: 10px 50px;
+    border-radius: 0;
+}
+
+.main-container .list-group {
+    border-radius: 0;
+}
+
+.main-container .list-group .list-group-item {
+    padding: 6px 16px;
+}
+.main-container .list-group .list-group-item:first-child {
+    border-top: none;
+}
+
+.main-container .main-container__menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0 10px;
+}
+
+.main-container .main-container__menu * {
+    font-size: 14px;
+}
+
+.main-container .main-container__menu .remaining-todos {
+    text-align: center;
+}
