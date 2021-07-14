@@ -1,0 +1,41 @@
+.colors-menu .colors-list {
+    list-style: none;
+    padding: 0;
+}
+
+.colors-menu .colors-list li {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.colors-menu .colors-list li * {
+    margin-right: 5px;
+}
+
+.colors-menu .colors-list li div {
+    width: 15px;
+    height: 10px;
+    border-radius: 2px;
+}
+
+.colors-menu .colors-list li div.green {
+    background-color: green;
+}
+
+.colors-menu .colors-list li div.blue {
+    background-color: blue;
+}
+
+.colors-menu .colors-list li div.orange {
+    background-color: orange;
+}
+
+.colors-menu .colors-list li div.purple {
+    background-color: purple;
+}
+
+.colors-menu .colors-list li div.red {
+    background-color: red;
+}
+

@@ -1,0 +1,13 @@
+.actions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.actions-container button.btn-primary {
+    margin-bottom: 10px;
+    font-size: 12px;
+    width: 150px;
+    font-weight: bold;
+    padding: 4px 12px;
+}

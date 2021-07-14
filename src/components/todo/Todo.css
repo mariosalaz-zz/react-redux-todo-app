@@ -1,0 +1,39 @@
+.todo-container * {
+    margin: 0;
+}
+
+.todo-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-container .todo-info {
+    display: flex;
+    align-items: center;
+}
+
+.todo-container .todo-info .form-check-input {
+    margin-right: 20px;
+}
+
+.todo-container .todo-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-container .todo-options .form-select {
+    margin-right: 15px;
+}
+
+.todo-container select,option {
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.todo-container .todo-delete {
+    cursor: pointer;
+    color: brown;
+}
